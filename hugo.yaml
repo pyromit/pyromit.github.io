@@ -2,3 +2,30 @@ baseURL: https://www.pyromit.eu/
 languageCode: en-us
 title: pyromit
 theme: eclectic
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 100
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 200
+
+params:
+  author:
+    email: contact@pyromit.eu
+    name: pyromit
+    location: Antwerp, Belgium
+  color: #4f46e5
+  copyright: 'Copyright &copy; 2024 pyromit'
+  footer:
+    - title: About
+      content: pyromit
+    - title: Recent Blog Posts
+      recents: blog
+      recentCount: 7
+    - title: Contact Us
+      contact: true
